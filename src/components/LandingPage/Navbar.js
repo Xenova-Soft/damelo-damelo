@@ -2,6 +2,7 @@
 // components/NavBarWithSidebar.js
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const NavBarWithSidebar = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
