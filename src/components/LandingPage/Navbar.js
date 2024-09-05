@@ -2,7 +2,7 @@
 // components/NavBarWithSidebar.js
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 const NavBarWithSidebar = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -16,7 +16,8 @@ const NavBarWithSidebar = () => {
             {/* Navbar */}
             <nav className="flex items-center justify-between p-4 bg-white ">
                 <div className="text-2xl font-bold">
-                    <a href="#">Damelo Damelo</a>
+                    {/* <a href="#">Damelo Damelo</a> */}
+                   <Image height={40} width={80} className=' object-cover ml-5' src={"/damelo-logo.png"} />
                 </div>
 
                 <div className="hidden md:flex items-center space-x-4">
