@@ -6,7 +6,6 @@ function Footer() {
       {/* Top Section: Damelo Logo and Language Selector */}
       <div className="bg-gray-100 py-4 border-gray-200 ">
         <div className="container mx-auto flex justify-between items-center px-4 lg:px-8">
-          {/* Damelo Logo */}
           <a href="#" className="flex items-center space-x-2">
             <img src="/damelo-logo.png" alt="Damelo" className="h-32 w-auto" />
           </a>
