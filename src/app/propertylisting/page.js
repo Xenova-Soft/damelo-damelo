@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-// import Footer from '@/components/Footer'
-import Footer from '../../components/Footer/Footer'
+import Footer from '@/components/Footer'
+
 
 function PropertyListingPage() {
     return (
@@ -133,7 +133,6 @@ function PropertyListingPage() {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }
