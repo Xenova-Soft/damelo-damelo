@@ -29,7 +29,7 @@ const NavBarWithSidebar = () => {
 
         <div className="hidden md:flex items-center space-x-4">
           <Link
-            href="/listing"
+            href="/propertylisting"
             className="text-gray-700 bg-white border border-gray-300 rounded-full px-3 py-1 flex items-center"
           >
             <span className="mr-2">📍</span>
